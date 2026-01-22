@@ -52,16 +52,17 @@
             --red: #c41e3a;
             --gray: #f8f9fa;
         }
-        html { scroll-behavior: smooth; overflow-x: hidden; }
+        html { scroll-behavior: smooth; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             margin: 0;
             color: #333;
-            overscroll-behavior: none;
+            overscroll-behavior-x: none;
             background: #fff;
             line-height: 1.6;
             box-sizing: border-box;
             overflow-x: hidden;
+            overflow-y: auto;
         }
         h1, h2, h3 { font-weight: 700; color: var(--blue); }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; }
